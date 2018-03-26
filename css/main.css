@@ -1,0 +1,122 @@
+.tagline {
+   /* clear: left; semaus commented 
+      left: -6px;
+	  May 18th
+	  position: relative; */
+    color: #ED8438;
+	/*float: right;
+	margin-top: -3px; */
+	font-size: 13px;  
+}
+
+.header_contact {
+	color: #209BE6;
+}
+
+.nav-links{
+	transition: width 2s linear 1s;
+	border-color: #ED8438;
+	}
+
+.nav-border{
+	border: 1px solid #ED8438;
+	transition-property: border-width;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.nav-border:hover {
+	border-width: 0px;
+}
+
+.nav-selection{
+	border: 0px solid #ED8438;
+	transition-property: border-width;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.nav-selection:hover {
+	border-width: 1px;
+}
+
+.search-button {
+	background-color: white;
+	-webkit-transition: background-color 0.5s, color: 0.5;
+	color: black;
+}
+
+.search-button:hover {
+	background-color: #ED8438;
+	color: white;
+}
+
+.btn-outline-success:hover {
+	background-color: #ED8438;
+}
+
+.row_colour1 {
+	background: grey;
+}
+
+.centrecom-orange {
+	color: #ED8438;
+}
+
+.grey_writing {
+	color: grey;
+}
+
+.centrecom-content-1 {
+	border: 2px solid #ED8438;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3)
+}
+
+.client_heading_1 {
+	padding-top: 5%;
+}
+
+.client_experience_1 {
+	padding-bottom: 5%;
+}
+
+.client-experience-card {
+	border: 2px solid #ED8438;
+	padding-top: 5px;
+}
+
+.form_background {
+	background: #209BE6;
+	border: 5px;
+}
+
+.client-background{
+	background: grey;
+}
+
+.client-box{
+	margin-bottom: 10px;
+}
+
+.shadow-form { 
+	box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-transitions {
+	transition: all 0.4s ease-in-out;
+}
+
+.form-transitions:focus {
+	border: 1px solid #ED8438;
+}
+
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.border-top-gray { border-top-color: #adb5bd; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
