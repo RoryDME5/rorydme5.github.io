@@ -9,8 +9,16 @@
 	font-size: 13px;  
 }
 
+.navbar-light {
+	background: #CCCCCC
+}
+
 .header_contact {
 	color: #209BE6;
+}
+
+.dropdown-toggle:hover .nav-links {
+	display: block;
 }
 
 .nav-links{
@@ -106,7 +114,7 @@
 }
 
 .client-background{
-	background: #cccccc;
+	background: #DDDDDD;
 }
 
 .client-box{
