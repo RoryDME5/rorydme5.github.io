@@ -18,6 +18,7 @@
 	border-color: #ED8438;
 	}
 
+
 .nav-border{
 	border: 1px solid #ED8438;
 	transition-property: border-width;
@@ -42,6 +43,16 @@
 	border-width: 1px;
 }
 
+.nav-selection-2{
+	border-bottom: 2px;
+	border-color: #000000;
+	transition: all 0.4s ease-in-out;
+}
+
+.nav-selection-2:hover{
+	border-color: #ED8438;
+}
+
 .search-button {
 	background-color: white;
 	-webkit-transition: background-color 0.5s, color: 0.5;
@@ -58,7 +69,7 @@
 }
 
 .row_colour1 {
-	background: grey;
+	background: #cccccc;
 }
 
 .centrecom-orange {
@@ -95,7 +106,7 @@
 }
 
 .client-background{
-	background: grey;
+	background: #cccccc;
 }
 
 .client-box{
@@ -113,6 +124,57 @@
 .form-transitions:focus {
 	border: 1px solid #ED8438;
 }
+
+footer{
+	background: #aaaaaa;
+}
+
+.footer-copyright{
+	background: #888888;
+}
+
+
+.fa {
+	padding-right: 10px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.social-fa {
+	padding-right: 10px;
+	font-size: 20px;
+	transition: all 0.4s ease-in-out;
+	text-decoration: none;
+	color: white;
+}
+
+.social-fa:hover {
+	color: #ED8438;
+    text-decoration: none;
+}
+
+.navbar-social {
+	padding-right: 10px;
+	font-size: 20px;
+	transition: all 0.4s ease-in-out;
+	text-decoration: none;
+	color: #ED8438;
+	text-decoration: none;
+}
+
+.navbar-social:hover {
+	color: #209BE6;
+	text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+
+
+.comments { display: none; }
+
+
+
 
 
 .border-top { border-top: 1px solid #e5e5e5; }
