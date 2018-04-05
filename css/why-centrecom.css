@@ -10,6 +10,10 @@ h3 {
 	background: white;
 }
 
+.bg-light2{
+	background: #EEEEEE;
+}
+
 .border-bottom-sides {
 	border-left: 2px solid #ED8438;
 	border-right: 2px solid #ED8438;
