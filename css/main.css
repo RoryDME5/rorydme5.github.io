@@ -15,6 +15,7 @@
 
 .navbar{
 	background: white;
+	border-bottom: 1px solid #ED8438;
 }
 
 .header_contact {
@@ -26,12 +27,12 @@
 }
 
 .nav-link-color {
-	color: #ED8438;
+	/*color: #209BE6;*/
 	transition: all 0.3s ease-in-out;
 }
 
 .nav-link-color:hover {
-	color: #209BE6;
+	color: #ED8438;
 }
 
 .dropdown {
@@ -39,6 +40,7 @@
 	}
 
 .nav-border{
+	background: #EEEEEE;
 	border: 1px solid #ED8438;
 	transition-property: border-width;
     transition-duration: 0.1s;
