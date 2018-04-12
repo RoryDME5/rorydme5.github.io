@@ -46,12 +46,13 @@
 }
 
 .nav-link-color {
-	color: white;
+	color: #FFFFFF;
 	transition: all 0.3s ease-in-out;
 }
 
 .nav-link-color:hover {
-	color: #ED8438;
+	color: #209BE6;
+	/*color: #ED8438; */
 }
 
 .dropdown {
